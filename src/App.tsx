@@ -12,7 +12,6 @@ export const App: any = (props: any): JSX.Element => (
     <div className="section-app">
         <h1 className="section-app__title">app {props.name}</h1>
         <AuthWeb />
-        {/* <AppButton /> */}
     </div>
 )
 
