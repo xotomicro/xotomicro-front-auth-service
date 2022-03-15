@@ -1,7 +1,7 @@
 {
   "name": "@xotomicro/authweb",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "ISC",
   "description": "userweb of the xotomicro repo pack - 📦",
   "scripts": {
@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@types/node": "^17.0.21",
-    "@xotomicro/design": "^0.0.5",
-    "@xotomicro/utility": "^0.0.5",
+    "@xotomicro/design": "^0.0.6",
+    "@xotomicro/utility": "^0.0.6",
     "css-loader": "^6.2.0",
     "husky": "^7.0.2",
     "identity-obj-proxy": "^3.0.0",
@@ -88,5 +88,5 @@
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.4.0"
   },
-  "gitHead": "b8d85388537985e81a9179bedb2b3cad2c4db122"
+  "gitHead": "c1e2cd10b9b3bcfbbb4a5f5f66ed8e5c177173a2"
 }
