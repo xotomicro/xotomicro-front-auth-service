@@ -1,6 +1,6 @@
 {
   "name": "@xotomicro/authweb",
-  "private": true,
+  "private": false,
   "version": "0.0.110",
   "license": "ISC",
   "description": "userweb of the xotomicro repo pack - 📦",
@@ -13,7 +13,7 @@
     "lint:es": "eslint '**/*.{js,jsx,ts,tsx}' -f codeframe --ignore-path ./.eslintignore --fix --cache --cache-location 'node_modules/.cache/eslint/'",
     "lint:style": "stylelint '**/*.scss' --config ./.stylelintrc.js --cache --cache-location 'node_modules/.cache/stylelint/' --fix --custom-syntax postcss-less",
     "test:service": "jest src --passWithNoTests --maxWorkers=50%",
-"git:update": "sh ./git-util.sh gitUpdate"
+    "git:update": "sh ./git-util.sh gitUpdate"
   },
   "lint-staged": {
     "*.(tsx|html|css)": [
@@ -27,6 +27,7 @@
   "dependencies": {
     "@types/node": "^17.0.21",
     "@xotomicro/utility": "^0.0.110",
+    "@xotomicro/design": "^0.0.110",
     "css-loader": "^6.2.0",
     "husky": "^7.0.2",
     "identity-obj-proxy": "^3.0.0",
