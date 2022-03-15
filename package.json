@@ -1,7 +1,7 @@
 {
   "name": "@xotomicro/authweb",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.2",
   "license": "ISC",
   "description": "userweb of the xotomicro repo pack - 📦",
   "scripts": {
@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@types/node": "^17.0.21",
-    "@xotomicro/design": "^0.0.0",
-    "@xotomicro/utility": "^0.0.0",
+    "@xotomicro/design": "^0.0.2",
+    "@xotomicro/utility": "^0.0.2",
     "css-loader": "^6.2.0",
     "husky": "^7.0.2",
     "identity-obj-proxy": "^3.0.0",
