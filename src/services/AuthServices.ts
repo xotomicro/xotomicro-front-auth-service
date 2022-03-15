@@ -9,5 +9,5 @@ export function getToken() {
 }
 
 export function getUsername() {
-    return globalEventDistributor.globalStore.username
+    return globalEventDistributor?.globalStore.username
 }
