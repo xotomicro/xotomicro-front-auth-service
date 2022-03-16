@@ -1,6 +1,9 @@
 name: ci-cl
 
-on: [push]
+on:
+  push:
+    branches:
+      - development
 
 jobs:
   test:
