@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import {globalEventDistributor} from "../App"
-import {LoginModel} from "../model/LoginModel"
+import {LoginModel} from "@model/LoginModel"
 
 async function Login(credentials: LoginModel) {
     return fetch(`http://${process.env.SERVICE_URL}:8080/auth/login`, {

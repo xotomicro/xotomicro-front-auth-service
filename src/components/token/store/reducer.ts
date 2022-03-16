@@ -1,5 +1,5 @@
-import {generateRandomToken} from "./action"
-import {initialState} from "./state"
+import {generateRandomToken} from "@components/token/store/action"
+import {initialState} from "@components/token/store/state"
 
 export function tokenReducer(state: any = initialState, action: any) {
     switch (action.type) {

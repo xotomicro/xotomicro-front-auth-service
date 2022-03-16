@@ -1,4 +1,4 @@
-import {tokenReducer} from "../components/token/store/reducer"
+import {tokenReducer} from "@components/token/store/reducer"
 import {globalEventDistributor} from "../App"
 import {Store, createStore, combineReducers} from "redux"
 
