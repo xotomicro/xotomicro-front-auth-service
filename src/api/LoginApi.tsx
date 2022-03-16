@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import {globalEventDistributor} from "@app/App"
+import {globalEventDistributor} from "../App"
 import {LoginModel} from "@model/LoginModel"
 
 async function Login(credentials: LoginModel) {

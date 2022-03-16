@@ -1,5 +1,5 @@
 import {tokenReducer} from "@components/token/store/reducer"
-import {globalEventDistributor} from "@app/App"
+import {globalEventDistributor} from "../App"
 import {Store, createStore, combineReducers} from "redux"
 
 const store: Store<any, any> = createStore(
