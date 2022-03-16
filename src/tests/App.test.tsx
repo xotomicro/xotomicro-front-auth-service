@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import {App, globalEventDistributor} from "../App"
+import {App, globalEventDistributor} from "@app/App"
 
 let container
 
