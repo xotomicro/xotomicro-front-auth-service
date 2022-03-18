@@ -1,4 +1,4 @@
-import {globalEventDistributor} from "../App"
+import { globalEventDistributor } from "../App"
 
 export function setToken(token: string) {
     sessionStorage.setItem("token", token)
@@ -9,5 +9,5 @@ export function getToken() {
 }
 
 export function getUsername() {
-    return globalEventDistributor.globalStore.username
+    return globalEventDistributor ? globalEventDistributor.globalStore.username : ""
 }
