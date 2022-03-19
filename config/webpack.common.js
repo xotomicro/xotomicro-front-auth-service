@@ -1,5 +1,5 @@
 const packageDependencies = require("../package.json").dependencies
-const {getAliasConfig, getModuleRulesConfig, getMicrofrontendPluginsConfig} = require("@xotomicro/utility/lib/config/webpack.shared")
+const {getAliasConfig, getModuleRulesConfig, getMicrofrontendPluginsConfig} = require("@xotomicro/utility/src/config/webpack.shared")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const {EnvironmentPlugin} = require("webpack")
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin")
