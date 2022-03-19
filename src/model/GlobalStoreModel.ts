@@ -1,4 +1,4 @@
-import {LoginModel} from "@model/LoginModel"
+import {LoginModel} from "@model/authweb/LoginModel"
 
 export interface GlobalStoreModel {
     globalStore: LoginModel
