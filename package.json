@@ -27,8 +27,8 @@
   },
   "dependencies": {
     "@types/node": "^17.0.21",
-    "@xotomicro/design": "git+https://github.com/xotomicro/design.git#development",
-    "@xotomicro/utility": "git+https://github.com/xotomicro/utility.git#development",
+    "@xotomicro/design": "git://github.com/xotomicro/design.git#development",
+    "@xotomicro/utility": "git://github.com/xotomicro/utility.git#development",
     "css-loader": "^6.2.0",
     "husky": "^7.0.2",
     "identity-obj-proxy": "^3.0.0",
