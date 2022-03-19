@@ -1,10 +1,9 @@
-import { AuthWeb } from "@components/auth/AuthWeb"
-import { GlobalStoreModel } from "@model/GlobalStoreModel"
+import {AuthWeb} from "@components/auth/AuthWeb"
+import {GlobalStoreModel} from "@model/GlobalStoreModel"
 import React from "react"
 import ReactDOM from "react-dom"
 import singleSpaReact from "single-spa-react"
 import "./style/overwrite.scss"
-
 
 export let globalEventDistributor: GlobalStoreModel
 

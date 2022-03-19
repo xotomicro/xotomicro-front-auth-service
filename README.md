@@ -2,8 +2,11 @@
 The React Application
 
 ### PREREQUISITE
-- run shellsystem
-- run hooksystem
+```shell
+git clone https://github.com/xotomicro/shellsystem.git # run shell
+git clone https://github.com/xotomicro/hooksystem.git # then the hook system
+```
+
 
 ### INSTALL AND RUN THE APP - YARN
 ```shell
