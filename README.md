@@ -33,7 +33,6 @@ docker-compose up --build -d # deploy service to docker
 # build service without docker compose
 docker build -t {SERVICE_NAME} . --progress plain --no-cache --build-arg GITHUB_TOKEN={GITHUB_TOKEN}
 
-
 ```
 
 - ACCESS 
