@@ -28,7 +28,7 @@
   "dependencies": {
     "@types/node": "^17.0.21",
     "@xotomicro/design": "0.0.2",
-    "@xotomicro/utility": "^0.0.7",
+    "@xotomicro/utility": "^0.0.8",
     "css-loader": "^6.2.0",
     "husky": "^7.0.2",
     "identity-obj-proxy": "^3.0.0",
