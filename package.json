@@ -14,7 +14,7 @@
     "lint:es": "eslint '**/*.{js,jsx,ts,tsx}' -f codeframe --ignore-path ./.eslintignore --fix --cache --cache-location 'node_modules/.cache/eslint/'",
     "lint:style": "stylelint '**/*.scss' --config ./.stylelintrc.js --cache --cache-location 'node_modules/.cache/stylelint/' --fix --custom-syntax postcss-less",
     "test:service": "jest src --passWithNoTests --maxWorkers=50%",
-    "update:internal_dependencies":"npx ncu @xotomicro/* -u",
+    "update:internal_dependencies": "npx ncu @xotomicro/* -u",
     "git:update": "sh ./git-util.sh gitUpdate"
   },
   "lint-staged": {
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@types/node": "^17.0.21",
+    "@xotomicro/common": "^0.0.2",
     "@xotomicro/design": "0.0.4",
     "@xotomicro/utility": "^0.0.10",
     "css-loader": "^6.2.0",
