@@ -1,5 +1,5 @@
 import {AuthWeb} from "@components/auth/AuthWeb"
-import {GlobalStoreModel} from "@model/GlobalStoreModel"
+import {GlobalStoreModel} from "@xotomicro/common"
 import React from "react"
 import ReactDOM from "react-dom"
 import singleSpaReact from "single-spa-react"

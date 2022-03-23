@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import {globalEventDistributor} from "../App"
-import {LoginModel} from "@model/authweb/LoginModel"
+import {LoginModel} from "@xotomicro/common"
 
 async function Login(credentials: LoginModel) {
     return fetch(`http://${process.env.SERVICE_URL}:8080/auth/login`, {
