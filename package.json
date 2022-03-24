@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@types/node": "^17.0.21",
-    "@xotomicro/common": "^0.0.8",
+    "@xotomicro/common": "^0.0.9",
     "@xotomicro/design": "0.0.6",
     "@xotomicro/utility": "^0.0.16",
     "css-loader": "^6.2.0",
