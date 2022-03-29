@@ -30,9 +30,7 @@ describe("App", () => {
     test("should render <App/>", () => {
         const mockFn1 = jest.fn().mockImplementation(() => 42)
         const mockFn2 = jest.fn(() => 42)
-
         expect(mockFn1()).toBe(42)
-
         ReactDOM.render(<AppTestWrapper />, container)
     })
 })
