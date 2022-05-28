@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.kompose.service: xotomicro-front-auth-service
+  name: xotomicro-front-auth-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: xotomicro-front-auth-service
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        io.kompose.service: xotomicro-front-auth-service
+    spec:
+      containers:
+        - image: xotomicro-front-auth-service
+          imagePullPolicy: IfNotPresent
+          name: xotomicro-front-auth-service
+          ports:
+            - containerPort: 80
+          resources: {}
+      restartPolicy: Always
+status: {}
